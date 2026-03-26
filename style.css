@@ -9,7 +9,7 @@ body {
   background: #fff;
 }
 
-/* 🔹 NAVBAR */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -27,7 +27,7 @@ body {
   font-size: 20px;
 }
 
-/* 🔥 HAMBURGER */
+
 .menu-toggle {
   display: none;
   flex-direction: column;
@@ -42,7 +42,7 @@ body {
   transition: 0.4s;
 }
 
-/* ANIMATION */
+
 .menu-toggle.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -53,7 +53,7 @@ body {
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-/* NAV */
+
 nav {
   display: flex;
   align-items: center;
@@ -69,7 +69,7 @@ nav button {
   margin-left: 10px;
 }
 
-/* BUTTONS */
+
 .primary {
   background: #f4a825;
   color: white;
@@ -97,7 +97,7 @@ nav button {
   background: #f9fafb;
 }
 
-/* HERO */
+
 .hero {
   display: flex;
   align-items: center;
@@ -136,7 +136,7 @@ nav button {
   margin-right: 10px;
 }
 
-/* STATS */
+
 .stats {
   display: flex;
   margin-top: 30px;
@@ -146,7 +146,7 @@ nav button {
   margin-right: 30px;
 }
 
-/* RIGHT SIDE (FIXED + CENTERED) */
+
 .hero-right {
   flex: 1;
   display: flex;
@@ -154,7 +154,7 @@ nav button {
   align-items: center;
 }
 
-/* 🔥 IMAGE (PREMIUM EFFECT) */
+
 .hero-img {
   width: 480px;
   max-width: 100%;
@@ -167,14 +167,14 @@ nav button {
   transform: scale(1.05);
 }
 
-/* FLOAT ANIMATION */
+
 @keyframes float {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-10px); }
   100% { transform: translateY(0px); }
 }
 
-/* 🔥 MOBILE */
+
 @media (max-width: 768px) {
 
   .menu-toggle {
